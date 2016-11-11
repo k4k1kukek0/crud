@@ -15,7 +15,9 @@ $result = mysqli_query($mysqli, "SELECT * FROM  users ORDER BY id DESC");
         <title>Belajar CRUD</title>
     </head>
     <body>
-            <table border = "1">
+   
+        <a href="add.php">tambah data</a>
+            <table border = "1" width="100%">
                 <thead>
                     <tr>
                         <th>id</th>
@@ -45,6 +47,8 @@ $result = mysqli_query($mysqli, "SELECT * FROM  users ORDER BY id DESC");
                     <?php } ?>
                 </tbody>
             </table>
+
+    
     </body>
 </html>
                        
